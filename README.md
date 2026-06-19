@@ -6,5 +6,8 @@ The following discusses a data analyst internship for IDX Exchange, a real estat
 ## Progress
 
 ### Week 0
+(WIP)
 
+### Week 1
+(WIP)
 
