@@ -14,5 +14,5 @@ The following describes a data analyst internship for IDX Exchange, a real estat
 ### Objectives
 * Aggregate the monthly CRMLSListing and CRMLSSold files into 2 datasets.
 * Filter the datasets for Residential properties only.
-#### How to Run
+### How to Run
 Set the filepath of `os.chdir(r"...")` (Cell 1) to the folder containing the monthly CSV files. Upon completion, "CRMLSListing.csv" and "CRMLSSold.csv" will be output to the same folder.
