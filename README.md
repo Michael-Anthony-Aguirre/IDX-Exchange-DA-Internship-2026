@@ -1,13 +1,25 @@
 # IDX Exchange - Data Analyst Intern (Summer 2026)
 
 ## Overview
-The following discusses a data analyst internship for IDX Exchange, a real estate technology companies, which revolves around MLS analytics with Python and Tableau as the primary tools. This 12-week internship is divided into phases of data cleaning, market analytics, competitive intelligence, dashboard development, and market insights.
+The following discusses a data analyst internship for IDX Exchange, a real estate technology companies, which revolves around Multiple Listing Service (MLS) analytics with Python and Tableau as the primary tools. This 12-week internship is divided into phases of data cleaning, market analytics, competitive intelligence, dashboard development, and market insights.
 
 ## Progress
 
 ### Week 0
-(WIP)
+## Objectives
+* Retrieve datasets from the California Regional Multiple Listing Service (CRMLS) on properties that have been listed (CRMLSListing) and sold (CRMLSSold).
+* Datasets are exported as CSVs on a monthly basis from January 2024 to May 2026.
+## How to Run
+* .
 
 ### Week 1
-(WIP)
+## Objectives
+* Aggregate the monthly CRMLSListing and CRMLSSold files into 2 datasets.
+* Filter the datasets for Residential properties only.
+### How to Run
+* .
+* .
+
+
+
 
