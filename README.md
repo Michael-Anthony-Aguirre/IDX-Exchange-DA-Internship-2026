@@ -7,8 +7,6 @@ The following describes a data analyst internship for IDX Exchange, a real estat
 ### Objectives
 * Retrieve datasets from the California Regional Multiple Listing Service (CRMLS) on properties that have been listed (CRMLSListing) and sold (CRMLSSold).
 * Datasets are exported as CSVs on a monthly basis from January 2024 to May 2026.
-### How to Run
-* Not applicable.
 
 ## Week 1 - Aggregation
 ### Objectives
