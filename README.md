@@ -16,13 +16,14 @@ The following describes a data analyst internship for IDX Exchange, a real estat
 ### How to Run
 Set the filepath of `os.chdir(r"...")` (Cell 1) to the folder containing the monthly CSV files. Upon completion, "CRMLSListing.csv" and "CRMLSSold.csv" will be output to the same folder.
 
-## Week 2 - Structuring & Validation
+## Week 2 - Structuring & Validation (WIP)
 ### Objectives
 * Identify the proportion of missing values in each column, flagging columns with >90% missing values.
 * Provide summary statistics for key numeric fields (ClosePrice, LivingArea, DaysOnMarket, etc.).
 * (WIP)
 ### How to Run
 * Before running "file1.ipynb", ensure that "CRMLSSold.csv" and "CRMLSListing.csv" are also in the same folder (see "Week 1 - Aggregation").
+* (WIP)
 
 
 
