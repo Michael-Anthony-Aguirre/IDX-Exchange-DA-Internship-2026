@@ -21,16 +21,15 @@ Set the filepath of `os.chdir(r"...")` (Cell 1) to the folder containing the mon
 * Retrieve mortgage rate data (MORTGAGE30US) from FRED, resample the weekly rates to monthly averages, and merge the datasets on a "year_month" key basis.
 * resample it from weekly to monthly frequency, and merge it onto both combined datasets using a year-month key derived from transaction dates)
 ### How to Run
-* Before running "file1.ipynb", ensure that "CRMLSListing_1.csv" and "CRMLSSold_1.csv" are also in the same folder. Output will include "CRMLSListing_2.csv" and "CRMLSSold_2.csv".
+* Before running "file1.ipynb", ensure that "CRMLSListing_1.csv" and "CRMLSSold_1.csv" are in the same folder. Output will include "CRMLSListing_2.csv" and "CRMLSSold_2.csv".
 * "file2.ipynb" requires "CRMLSListing_2.csv" and "CRMLSSold_2.csv", it can be run immediately after "file1.ipynb" has completed.
 
 ## Weeks 4-5 - Data Cleaning & Preparation (WIP)
 ### Objectives
-* (WIP)
+* Convert date fields from string format to datetime format.
+* Remove columns that are unnecessary or redundant.
+* Appropritately handle missing values.
+* Verify that numeric fields are formatted correctly.
+* Flag rows with invalid numeric values, illogical date field order, and coordinate errors.
 ### How to Run
-* (WIP)
-
-
-
-
-
+* Before running "file3.ipynb", ensure that "CRMLSListing_3.csv" and "CRMLSSold_3.csv" are in the same folder.
