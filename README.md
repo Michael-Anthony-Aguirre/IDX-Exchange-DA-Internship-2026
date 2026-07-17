@@ -32,4 +32,4 @@ Set the filepath of `os.chdir(r"...")` (Cell 1) to the folder containing the mon
 * Verify that numeric fields are formatted correctly.
 * Flag rows with invalid numeric values, illogical date field order, and coordinate errors.
 ### How to Run
-* Before running "file3.ipynb", ensure that "CRMLSListing_3.csv" and "CRMLSSold_3.csv" are in the same folder.
+Before running "file3.ipynb", ensure that "CRMLSListing_3.csv" and "CRMLSSold_3.csv" are in the same folder.
