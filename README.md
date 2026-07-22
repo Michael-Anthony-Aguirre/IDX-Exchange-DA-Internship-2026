@@ -4,7 +4,9 @@
 The following describes a data analyst internship for IDX Exchange revolving around Multiple Listing Service (MLS) analytics with Python and Tableau as the primary tools. This 12-week internship is divided into phases of data cleaning, market analytics, competitive intelligence, dashboard development, and market insights.
 
 ## How to Run
-Every single file has a "dataset_folder" string variable, which must be set to the path of the desired folder to have CSVs saved to. With few exceptions (check for "NOTES" in each week), this path should be exactly the same across all files. The order in which the files should be run is denoted by the number at the start of each file name (e.g., "1_aggregation.ipynb", "2_structuring-validation.ipynb", etc.).
+* Every single file has a "dataset_folder" string variable, which must be set to the path of the desired folder to have CSVs saved to.
+* With few exceptions (check for "NOTES" in each week), this path should be exactly the same across all files.
+* The order in which the files should be run is denoted by the number at the start of each file name (e.g., "1_aggregation.ipynb", "2_structuring-validation.ipynb", etc.).
 
 ## Week 0 - Retrieval
 ### Objectives
