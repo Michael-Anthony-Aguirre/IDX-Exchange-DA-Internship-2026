@@ -3,6 +3,9 @@
 ## Overview
 The following describes a data analyst internship for IDX Exchange revolving around Multiple Listing Service (MLS) analytics with Python and Tableau as the primary tools. This 12-week internship is divided into phases of data cleaning, market analytics, competitive intelligence, dashboard development, and market insights.
 
+## How to Run
+Every single file has a "dataset_folder" string variable, which must be set to the path of the desired folder to have CSVs saved to. With few exceptions (check for "NOTES" in each week), this path should be exactly the same across all files. The order in which the files should be run is denoted by the number at the start of each file name (e.g., "1_aggregation.ipynb", "2_structuring-validation.ipynb", etc.).
+
 ## Week 0 - Retrieval
 ### Objectives
 * Retrieve datasets from the California Regional Multiple Listing Service (CRMLS) on properties that have been listed (CRMLSListing) and sold (CRMLSSold).
@@ -11,8 +14,8 @@ The following describes a data analyst internship for IDX Exchange revolving aro
 ## Week 1 - Aggregation
 ### Objectives
 * Aggregate the monthly CRMLSListing and CRMLSSold files into 2 datasets.
-### How to Run
-Set the filepath of `os.chdir(r"...")` (Cell 1) to the folder containing the monthly CSV files. "CRMLSListing_1.csv" and "CRMLSSold_1.csv" will be output to the same folder as the other CSVs.
+### NOTES
+* In the code provided, the first instance of "dataset_folder" is set to "monthly data" subfolder within the "datasets" folder. The path is then set to the "datasets" folder itself in the very last block when saving the dataframes as CSVs. This is for organization purposes, separating the 60 monthly data CSVs from the primary CSVs of aggregated data that will be iterated upon going forward.
 
 ## Weeks 2-3 - Structuring & Validation
 ### Objectives
@@ -20,9 +23,6 @@ Set the filepath of `os.chdir(r"...")` (Cell 1) to the folder containing the mon
 * Provide summary statistics for key numeric fields (ClosePrice, LivingArea, DaysOnMarket, etc.).
 * Retrieve mortgage rate data (MORTGAGE30US) from FRED, resample the weekly rates to monthly averages, and merge the datasets on a "year_month" key basis.
 * resample it from weekly to monthly frequency, and merge it onto both combined datasets using a year-month key derived from transaction dates)
-### How to Run
-* Before running "file1.ipynb", ensure that "CRMLSListing_1.csv" and "CRMLSSold_1.csv" are in the same folder. Output will include "CRMLSListing_2.csv" and "CRMLSSold_2.csv".
-* "file2.ipynb" requires "CRMLSListing_2.csv" and "CRMLSSold_2.csv", it can be run immediately after "file1.ipynb" has completed.
 
 ## Weeks 4-5 - Data Cleaning & Preparation (WIP)
 ### Objectives
@@ -31,5 +31,3 @@ Set the filepath of `os.chdir(r"...")` (Cell 1) to the folder containing the mon
 * Appropritately handle missing values.
 * Verify that numeric fields are formatted correctly.
 * Flag rows with invalid numeric values, illogical date field order, and coordinate errors.
-### How to Run
-Before running "file3.ipynb", ensure that "CRMLSListing_3.csv" and "CRMLSSold_3.csv" are in the same folder.
