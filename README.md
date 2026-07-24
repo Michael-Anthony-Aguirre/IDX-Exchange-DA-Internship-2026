@@ -26,7 +26,7 @@ The following describes a data analyst internship for IDX Exchange revolving aro
 * Retrieve mortgage rate data (MORTGAGE30US) from FRED, resample the weekly rates to monthly averages, and merge the datasets on a "year_month" key basis.
 * resample it from weekly to monthly frequency, and merge it onto both combined datasets using a year-month key derived from transaction dates)
 
-## Weeks 4-5 - Data Cleaning & Preparation (WIP)
+## Weeks 4-5 - Data Cleaning & Preparation
 ### Objectives
 * Convert date fields from string format to datetime format.
 * Remove columns that are unnecessary or redundant.
