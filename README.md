@@ -30,6 +30,10 @@ The following describes a data analyst internship for IDX Exchange revolving aro
 ### Objectives
 * Convert date fields from string format to datetime format.
 * Remove columns that are unnecessary or redundant.
-* Appropritately handle missing values.
+* Appropriately handle missing values.
 * Verify that numeric fields are formatted correctly.
 * Flag rows with invalid numeric values, illogical date field order, and coordinate errors.
+
+# Week 6 - Feature Engineering & Market Metrics (WIP)
+### Objectives
+* (WIP)
