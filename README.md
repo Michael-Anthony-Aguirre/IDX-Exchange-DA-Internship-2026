@@ -36,4 +36,6 @@ The following describes a data analyst internship for IDX Exchange revolving aro
 
 # Week 6 - Feature Engineering & Market Metrics (WIP)
 ### Objectives
-* (WIP)
+* Create key metrics (price ratio, price per square foot, year-month, close-to-original-list ratio, listing-to-contract days, contract-to-close days) for later use in the development of Tableau dashboards.
+* Add school district mapping using the latitude and longitude values of each property.
+* Conduct analysis on market patterns by generating summary statistics based on segmented data (PropertyType & PropertySubType, CountyOrParish & MLSAreaMajor, ListOfficeName & BuyerOfficeName).
