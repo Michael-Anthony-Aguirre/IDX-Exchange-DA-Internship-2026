@@ -34,7 +34,7 @@ The following describes a data analyst internship for IDX Exchange revolving aro
 * Verify that numeric fields are formatted correctly.
 * Flag rows with invalid numeric values, illogical date field order, and coordinate errors.
 
-## Week 6 - Feature Engineering & Market Metrics (WIP)
+## Week 6 - Feature Engineering & Market Metrics
 ### Objectives
 * Create key metrics for later use in the development of Tableau dashboards.
 * Add school district mapping using the latitude and longitude values of each property.
