@@ -41,7 +41,7 @@ The following describes a data analyst internship for IDX Exchange revolving aro
 * Add school district mapping using the latitude and longitude values of each property.
 * Conduct analysis on market patterns by generating summary statistics based on segmented data (PropertyType & PropertySubType, CountyOrParish & MLSAreaMajor, ListOfficeName & BuyerOfficeName).
 
-## Week 7 - Outlier Detection & Data Quality
+## Week 7 - Outlier Detection & Data Quality (WIP)
 ### Objectives
 * Identify and flag records with extreme values (ClosePrice, LivingArea, DaysOnMarket), based on whether they fall out of the interquartile range.
 * Save the datasets as flagged and filtered variants (4 CSVs total).
